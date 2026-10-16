@@ -5,6 +5,7 @@ import WhyUs from "@/components/WhyUs";
 import Founders from "@/components/Founders";
 import Recruitment from "@/components/Recruitment";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Founders />
       <Recruitment />
       <Contact />
+      <Footer />
     </>
   );
 }
